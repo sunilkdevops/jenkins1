@@ -1,0 +1,23 @@
+Started by user [8mha:////4EWe9Vb0mHK3xW8xaPpCUfVJG+zZ5LzPNPU5BU3gabs9AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL94tK8zBwA4opRM8AAAAA=[0msunil
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/projectc2
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/projectc2/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/sunilkdevops/test1.git # timeout=10
+Fetching upstream changes from https://github.com/sunilkdevops/test1.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/sunilkdevops/test1.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 706e578f39c65f0d7b54c41b27228fd6b0f66645 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 706e578f39c65f0d7b54c41b27228fd6b0f66645 # timeout=10
+Commit message: "Update big3.c"
+ > git rev-list --no-walk 879b351d1e59860a30878e1b63d9356cd3c358b3 # timeout=10
+[projectc2] $ /bin/sh -xe /tmp/jenkins9218320522315455914.sh
++ cd /var/lib/jenkins/workspace/projectc1
++ make
+make: 'ABC.exe' is up to date.
+Finished: SUCCESS

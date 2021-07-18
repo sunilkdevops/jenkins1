@@ -1,0 +1,14 @@
+Started on Jul 18, 2021 5:36:33 AM
+Started by event from 140.82.115.144 ⇒ http://3.108.64.41:8080/github-webhook/ on Sun Jul 18 05:36:32 UTC 2021
+Using strategy: Default
+[poll] Last Built Revision: Revision 00dc87ba0ece9e1908e690073c1808f6dc7d75b0 (refs/remotes/origin/master)
+The recommended git tool is: NONE
+using credential df753a28-9bdd-4695-8f1e-14d19e9e7419
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+using GIT_ASKPASS to set credentials 
+ > git ls-remote -h -- https://github.com/sunilkdevops/test1.git # timeout=10
+Found 1 remote heads on https://github.com/sunilkdevops/test1.git
+[poll] Latest remote head revision on refs/heads/master is: eb43032f07dbdc6424e9532581f79f76d9fadb62
+Done. Took 0.27 sec
+Changes found

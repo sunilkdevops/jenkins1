@@ -1,0 +1,12 @@
+Started on Jul 18, 2021 4:10:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision 00dc87ba0ece9e1908e690073c1808f6dc7d75b0 (refs/remotes/origin/master)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git ls-remote -h -- https://github.com/sunilkdevops/test1.git # timeout=10
+Found 1 remote heads on https://github.com/sunilkdevops/test1.git
+[poll] Latest remote head revision on refs/heads/master is: cd677b44b75adbdd9689eb0813ed51c3ad97e34e
+Done. Took 0.4 sec
+Changes found

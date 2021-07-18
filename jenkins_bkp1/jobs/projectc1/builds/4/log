@@ -1,0 +1,24 @@
+Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/projectc1
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/projectc1/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/sunilkdevops/test1.git # timeout=10
+Fetching upstream changes from https://github.com/sunilkdevops/test1.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/sunilkdevops/test1.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 00dc87ba0ece9e1908e690073c1808f6dc7d75b0 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 00dc87ba0ece9e1908e690073c1808f6dc7d75b0 # timeout=10
+Commit message: "Update big3.c"
+ > git rev-list --no-walk 4ef7a39795b551bb2fd70aff064d5bf0d173070a # timeout=10
+[projectc1] $ /bin/sh -xe /tmp/jenkins4764355055777595024.sh
++ cd /var/lib/jenkins/workspace/projectc1
++ make
+gcc -c big3.c
+gcc -o ABC.exe main.o big3.o fact.o rev.o
+Finished: SUCCESS
